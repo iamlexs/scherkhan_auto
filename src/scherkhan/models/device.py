@@ -10,7 +10,6 @@ class Device(BaseModel):
     created: datetime
     is_autostart_available: bool
     pin: str
-    pin: str
     msisdn: str
     operator: int
     currency: str
