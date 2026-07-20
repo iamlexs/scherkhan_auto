@@ -17,4 +17,4 @@ class Device(BaseModel):
     emergency: str
     is_mark_available: bool
     has_internet_connection: bool
-    branding_id: int = None
+    branding_id: int | None
